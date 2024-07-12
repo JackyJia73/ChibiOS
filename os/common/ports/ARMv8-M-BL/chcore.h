@@ -234,7 +234,7 @@
  */
 #define PORT_ARCHITECTURE_ARM
 
-#if (CORTEX_MODEL == 23) || defined(__DOXYGEN__)
+#if (CORTEX_MODEL == 33) || defined(__DOXYGEN__)
 
   #if !defined(CH_CUSTOMER_LIC_PORT_CM33)
     #error "CH_CUSTOMER_LIC_PORT_CM33 not defined"
@@ -247,7 +247,7 @@
   /**
    * @brief   Name of the architecture variant.
    */
-  #define PORT_CORE_VARIANT_NAME        "Cortex-M23"
+  #define PORT_CORE_VARIANT_NAME        "Cortex-M33"
 
 
 #else
