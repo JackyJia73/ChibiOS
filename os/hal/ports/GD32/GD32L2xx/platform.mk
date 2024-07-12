@@ -2,7 +2,8 @@
 PLATFORMSRC := $(CHIBIOS)/os/hal/ports/common/ARMCMx/nvic.c \
                $(CHIBIOS)/os/hal/ports/common/ARMCMx/sau.c \
                $(CHIBIOS)/os/hal/ports/GD32/GD32L2xx/stm32_isr.c \
-               $(CHIBIOS)/os/hal/ports/GD32/GD32L2xx/hal_lld.c
+               $(CHIBIOS)/os/hal/ports/GD32/GD32L2xx/hal_lld.c \
+               $(CHIBIOS)/os/hal/ports/GD32/GD32L2xx/hal_efl_lld.c
 
 # Required include directories.
 PLATFORMINC := $(CHIBIOS)/os/hal/ports/common/ARMCMx \
